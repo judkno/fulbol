@@ -37,6 +37,7 @@ header{
     position: fixed;
     top: 0;
     z-index: 2;
+    
 }
 
 .logo{
@@ -95,6 +96,7 @@ main{
 
     color: var(--text-white);
     width: 100%;
+    min-width: 600px;
 
 }
 #hero{
