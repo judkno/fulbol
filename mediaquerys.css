@@ -1,0 +1,124 @@
+/* TABLET */
+@media(max-width:992px){
+    .navbar{
+        gap:10px;
+    }
+    .cart-icon{
+        height: 33px;
+        margin-right: 0;
+        margin-top: 4px;
+    }
+    .navbar-lista{
+        position: absolute;
+        top: 65px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        background-color: #1d244d ;
+        border: 2px solid #0a8ca1;
+        border-top: 0;
+        border-radius: 0px 0px 15px 15px;
+        align-items: flex-start;
+        padding: 45px 30px;
+        z-index: 2;
+        display: none;
+        
+    }
+    .navbar-lista a{
+        font-size: 18px;
+    }
+    .menu-label{
+        display: flex;
+        order: 2;
+        cursor: pointer;
+        
+ 
+    }
+    .menu-label img{
+        height: 20px;
+        width: 25px;
+
+    }
+    #menu-toggle:checked + .navbar-lista{
+        display: flex;
+    }
+    .heroinfo{
+        display: flex;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+
+    }
+    .heroinfo h1{
+        width: 90%;
+        max-width: 500px;
+        min-width: unset;
+
+    }
+
+    .heroinfo p{
+        max-width: 600px;
+        width: 60%;
+    }
+    .hero-card{
+        display: none;
+    }
+    #info h2{
+        text-align: center;
+        width: 80%;
+    }
+    #etapas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .etapas-leo-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .messifotos{
+flex-direction: column;
+    }
+    .messifotos img{
+        width: 100%;
+    }
+
+.Product-messi{
+    flex-wrap: wrap;
+    max-width: 435px;
+}
+
+.Products-container{
+    padding: 50px;
+}
+ 
+
+
+
+}
+
+/* Phone*/
+@media(max-width:650px){
+    .info-cards-container{
+        flex-direction: column;
+    }
+
+    #info h2{
+        font-size: 40px
+    }
+
+    .termina{
+        flex-direction: column;
+        align-items: center;
+    }
+    .dedicatoria p{
+        font-weight: 10;
+    }
+
+}
